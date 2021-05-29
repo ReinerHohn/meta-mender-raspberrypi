@@ -4,10 +4,11 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded"  name="oe"/>
   <remote fetch="https://github.com/agherzan"      name="rpi"/>
+  <remote fetch="https://github.com/ReinerHohn/meta-raspberrypi" name="rpi_dim"/>
 
   <project name="poky" remote="yocto" revision="dunfell" path="sources/poky"/>
   <project name="meta-openembedded" remote="oe" revision="dunfell" path="sources/meta-openembedded"/>
-  <project name="meta-raspberrypi" remote="rpi" revision="dunfell" path="sources/meta-raspberrypi"/>
+  <project name="meta-raspberrypi" remote="rpi_dim" revision="dunfell" path="sources/meta-raspberrypi"/>
 
   <include name="scripts/mender.xml"/>
 
